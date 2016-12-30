@@ -1,0 +1,57 @@
+# ###############################
+# ######## EASYFIREWORK #########
+# ### BY ANGESCHOSSEN@YouTube ###
+# ###############################
+# ###### EXPLANATION ABOUT ######
+# ----- EVERY CONFIGURATION -----
+# ### YOU CAN FIND ON GITHUB ####
+# ############ ---- #############
+# ###############################
+
+
+# General settings
+General:
+  # Delay to start the firework with /Ef start or automatically
+  # type: int
+  DelayStart: 10
+  # Time interval between every firework rocket
+  # Set it to 0, if you don't want that
+  # type: int
+  TimeInterval: 20
+  # True: Starts the firework, if it exists, automatically after enabling the plugin
+  # False: Don't start a firework after enabling the plugin
+  # type: boolean
+  AutoStart: true
+# You can set a date when the firework should start
+RealTime:
+  # Enable it? True or false
+  # type: boolean
+  Enabled: true
+  # There are two date formats. British and american
+  # British means Day-Month-Year
+  # American means Month-Day-Year
+  # Very important for the following option "Start date"
+  # It will use british if you don't set any of them
+  # type: string
+  DateFormat: british
+  # Set your date
+  # Replace only the numbers. Don't touch the other characters!
+  # type: string
+  StartDate: 01-01-2017 00:00
+  # This message will be shown every player and to the console when it reaches the date, wich you set.
+  Message: '&6Easy Firework wish you all a happy new year!'
+# Set the a time (in ticks) when firework starts
+AutoTime:
+  # Enable it? True or false
+  # type: boolean
+  Enable: true
+  # Set the time in ticks
+  # 18000 is midnight
+  Ticks: 18000
+  # The plugin will get your worlds automatically
+  # Set true to set AutoTime enabled in this world
+  # Set false to enable it in the world
+  Worlds:
+    world: true
+    world_nether: true
+    world_the_end: true
