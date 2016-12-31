@@ -31,6 +31,18 @@ General:
     # Set the minutes you want
     # type: int
     Minutes: 1
+    # Configurate this option
+    # Where should it be used?
+    Objects: 
+      # If you use /EasyFirework start
+      # type: boolean
+      StartCommand: true
+      # When the server restarts or is reloaded
+      # type: boolean
+      AutoStart: true
+      # See RealTime option below
+      # type: boolean
+      RealTime: true  
 # You can set a date when the firework should start
 RealTime:
   # Enable it? True or false
