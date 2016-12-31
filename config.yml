@@ -22,6 +22,15 @@ General:
   # False: Don't start a firework after enabling the plugin
   # type: boolean
   AutoStart: true
+  # Option to stop a firework after it started
+  # You can set a delay
+  AutoStop:
+    # Enable it? True or false
+    # type: boolean
+    Enabled: true
+    # Set the minutes you want
+    # type: int
+    Minutes: 1
 # You can set a date when the firework should start
 RealTime:
   # Enable it? True or false
@@ -43,9 +52,11 @@ RealTime:
   # Here you can add a sound, wich will be played to every player, when it reaches the date
   Sound:
     # Enable it? True or false
+    # type: boolean
     Enable: true
     # Set your sound
     # You can find all aviable sounds here: https://www.spigotmc.org/wiki/cc-sounds-list/
+    # type: string
     Sound: ENTITY_PLAYER_LEVELUP
 # Set the a time (in ticks) when firework starts
 AutoTime:
