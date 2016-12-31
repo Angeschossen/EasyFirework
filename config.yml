@@ -38,8 +38,15 @@ RealTime:
   # Replace only the numbers. Don't touch the other characters!
   # type: string
   StartDate: 01-01-2017 00:00
-  # This message will be shown every player and to the console when it reaches the date, wich you set.
+  # This message will be shown every player and to the console when it reaches the date, wich you set
   Message: '&6Easy Firework wish you all a happy new year!'
+  # Here you can add a sound, wich will be played to every player, when it reaches the date
+  Sound:
+    # Enable it? True or false
+    Enable: true
+    # Set your sound
+    # You can find all aviable sounds here: https://www.spigotmc.org/wiki/cc-sounds-list/
+    Sound: ENTITY_PLAYER_LEVELUP
 # Set the a time (in ticks) when firework starts
 AutoTime:
   # Enable it? True or false
