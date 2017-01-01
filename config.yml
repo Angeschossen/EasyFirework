@@ -7,10 +7,14 @@
 # ### YOU CAN FIND ON GITHUB ####
 # ########## SPIGOTMC ###########
 # ###############################
-
+# 
+# Config version: 1.1.4
 
 # General settings
 General:
+  # Set a prefix for all messages
+  # type: string
+  Prefix: '&8[&aFirework&8] '
   # Delay to start the firework with /Ef start or automatically
   # type: int
   DelayStart: 10
