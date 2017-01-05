@@ -93,7 +93,9 @@ AutoTime:
   # The plugin will get your worlds automatically
   # Set true to set AutoTime enabled in this world
   # Set false to enable it in the world
+  # You also can add your Multiverse-Core worlds like below
   Worlds:
     world: true
     world_nether: true
     world_the_end: true
+    my_multiverse-core_world: true
