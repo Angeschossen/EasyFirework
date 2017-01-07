@@ -74,14 +74,21 @@ RealTime:
     # You can find all aviable sounds here: https://www.spigotmc.org/wiki/cc-sounds-list/
     # type: string
     Sound: ENTITY_PLAYER_LEVELUP
-  # Configurate the firework gui
-  Gui:
-    # Options for the main item
-    Item:
-      # If true. Player will get a block in his
-      # inventory to open it
-      # type: boolean
-      Drop: true
+# Configurate the firework gui
+Gui:
+  # Options for the main item
+  Item:
+    # If true. Player will get a block in his
+    # inventory to open it
+    # type: boolean
+    Drop: true
+# Player join options
+Join:
+  # Spawns a random firework, if a player joins
+  Firework:
+    # If true. Firework will spawn
+    # type: boolean
+    Enabled: true
 # Set the a time (in ticks) when firework starts
 AutoTime:
   # Enable it? True or false
