@@ -17,6 +17,10 @@ General:
   Prefix: '&8[&aFirework&8] '
   # Delay to start the firework with /Ef start or automatically
   # type: int
+  ConsoleColours: true
+  # This will disable colour for the console
+  # False: No colour in log messages
+  # type: boolean
   DelayStart: 10
   # Time interval between every firework rocket
   # Set it to 0, if you don't want that
